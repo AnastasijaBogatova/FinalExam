@@ -1,0 +1,15 @@
+<suite name="PirmasSuit">
+	<test name="BaigiamasisDarbas">
+		<classes>
+			<class name="Tests.TestClass">
+				<methods>
+					<include name="loginWithInvalidData"/>
+					<include name="login"/>
+					<include name="logout"/>
+					<include name="register"/>
+					<include name="registerWithInvalidData"/>					
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
